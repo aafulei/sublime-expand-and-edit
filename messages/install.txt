@@ -1,0 +1,87 @@
+Expand and Edit
+===============
+A set of 2-in-1 commands that combine "expand" and "edit" commands.
+
+All the actions below can be done with 1 command
+
+0. Expand to Word/Subword
+1. Expand to Word/Subword and Cut
+2. Expand to Word/Subword and Copy
+3. Expand to Word/Subword and Paste
+4. Expand to Word/Subword and Delete
+5. Expand to Word/Subword and Displace
+6. Expand to Word/Subword and Swap
+
+That is, with just 1 command, you can expand the cursor or selection to the
+surrounding
+
+- word
+- subword
+
+and
+
+- cut
+- copy
+- paste
+- delete
+- displace
+- swap
+
+How to Use
+----------
+1.  Key Bindings
+
+    No default key bindings. Define your own. For recommended key bindings,
+    open
+
+    Preferences > Package Settings > Expand and Edit > Key Bindings
+
+    or enter in the command palette
+
+    Preferences: Expand and Edit Key Bindings
+
+2.  Main Menu
+
+    Edit > Expand and ... > Cut Word
+    Edit > Expand and ... > Cut Subword
+    Edit > Expand and ... > Copy Word
+    Edit > Expand and ... > Copy Subword
+    Edit > Expand and ... > Paste Word
+    Edit > Expand and ... > Paste Subword
+    Edit > Expand and ... > Delete Word
+    Edit > Expand and ... > Delete Subword
+    Edit > Expand and ... > Displace Word
+    Edit > Expand and ... > Displace Subword
+    Edit > Expand and ... > Swap Word
+    Edit > Expand and ... > Swap Subword
+    Edit > Cancel Swap
+    Selection > Expand Selection to Subword
+
+3.  Command Palette
+
+    Expand Selection to Subword
+    Expand Cut Word
+    Expand Cut Subword
+    Expand Copy Word
+    Expand Copy Subword
+    Expand Paste Word
+    Expand Paste Subword
+    Expand Delete Word
+    Expand Delete Subword
+    Expand Displace Word
+    Expand Displace Subword
+    Expand Swap Word
+    Expand Swap Subword
+    Cancel Swap
+
+More
+----
+https://github.com/aafulei/sublime-expand-and-edit
+
+Author
+------
+Aaron Fu Lei
+
+License
+-------
+MIT

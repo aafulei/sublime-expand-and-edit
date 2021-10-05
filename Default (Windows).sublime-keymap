@@ -1,0 +1,16 @@
+[
+    // { "keys": ["alt+d"], "command": "expand_selection_to_subword" },
+    // { "keys": ["primary+;"], "command": "expand_cut_word" },
+    // { "keys": ["primary+'"], "command": "expand_cut_subword" },
+    // { "keys": ["primary+shift+;"], "command" : "expand_copy_word" },
+    // { "keys": ["primary+shift+'"], "command" : "expand_copy_subword" },
+    // { "keys": ["primary+k", "primary+shift+;"], "command": "expand_paste_word" },
+    // { "keys": ["primary+k", "primary+shift+'"], "command": "expand_paste_subword" },
+    // { "keys": ["alt+;"], "command" : "expand_delete_word" },
+    // { "keys": ["alt+'"], "command" : "expand_delete_subword" },
+    // { "keys": ["primary+alt+;"], "command" : "expand_displace_word" },
+    // { "keys": ["primary+alt+'"], "command" : "expand_displace_subword" },
+    // { "keys": ["primary+k", "primary+;"], "command" : "expand_swap_word" },
+    // { "keys": ["primary+k", "primary+'"], "command" : "expand_swap_subword" },
+    // { "keys": ["primary+escape"], "command": "cancel_swap" },
+]

@@ -1,0 +1,119 @@
+[
+    {
+        "id": "edit",
+        "children":
+        [
+            {
+                "caption": "-"
+            },
+            {
+                "caption": "Expand and ...",
+                "children":
+                [
+                    {
+                        "command": "expand_cut_word",
+                        "caption": "Cut Word"
+                    },
+                    {
+                        "command": "expand_cut_subword",
+                        "caption": "Cut Subword"
+                    },
+                    {
+                        "command": "expand_copy_word",
+                        "caption": "Copy Word"
+                    },
+                    {
+                        "command": "expand_copy_subword",
+                        "caption": "Copy Subword"
+                    },
+                    {
+                        "command": "expand_paste_word",
+                        "caption": "Paste Word"
+                    },
+                    {
+                        "command": "expand_paste_subword",
+                        "caption": "Paste Subword"
+                    },
+                    {
+                        "command": "expand_delete_word",
+                        "caption": "Delete Word"
+                    },
+                    {
+                        "command": "expand_delete_subword",
+                        "caption": "Delete Subword"
+                    },
+                    {
+                        "command": "expand_displace_word",
+                        "caption": "Displace Word"
+                    },
+                    {
+                        "command": "expand_displace_subword",
+                        "caption": "Displace Subword"
+                    },
+                    {
+                        "command": "expand_swap_word",
+                        "caption": "Swap Word"
+                    },
+                    {
+                        "command": "expand_swap_subword",
+                        "caption": "Swap Subword"
+                    }
+                ]
+            },
+            {
+                "command": "cancel_swap",
+                "caption": "Cancel Swap"
+            },
+            {
+                "caption": "-"
+            },
+        ]
+    },
+    {
+        "id": "selection",
+        "children":
+        [
+            {
+                "command": "expand_selection_to_subword",
+                "caption": "Expand Selection to Subword"
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                // include this information in case it is the only package
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Expand and Edit",
+                        "children":
+                        [
+                            {
+                                "caption": "Key Bindings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/Expand and Edit/Default ($platform).sublime-keymap",
+                                    "user_file": "${packages}/User/Default (${platform}).sublime-keymap",
+                                    "default": "[\n\t$0\n]\n",
+                                }
+                            },
+                            {
+                                "caption": "README",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Expand and Edit/messages/install.txt"
+                                }
+                            },
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

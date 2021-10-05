@@ -1,0 +1,67 @@
+[
+    {
+        "command": "expand_selection_to_subword",
+        "caption": "Expand Selection to Subword"
+    },
+    {
+        "command": "expand_cut_word",
+        "caption": "Expand Cut Word"
+    },
+    {
+        "command": "expand_cut_subword",
+        "caption": "Expand Cut Subword"
+    },
+    {
+        "command": "expand_copy_word",
+        "caption": "Expand Copy Word"
+    },
+    {
+        "command": "expand_copy_subword",
+        "caption": "Expand Copy Subword"
+    },
+    {
+        "command": "expand_paste_word",
+        "caption": "Expand Paste Word"
+    },
+    {
+        "command": "expand_paste_subword",
+        "caption": "Expand Paste Subword"
+    },
+    {
+        "command": "expand_delete_word",
+        "caption": "Expand Delete Word"
+    },
+    {
+        "command": "expand_delete_subword",
+        "caption": "Expand Delete Subword"
+    },
+    {
+        "command": "expand_displace_word",
+        "caption": "Expand Displace Word"
+    },
+    {
+        "command": "expand_displace_subword",
+        "caption": "Expand Displace Subword"
+    },
+    {
+        "command": "expand_swap_word",
+        "caption": "Expand Swap Word"
+    },
+    {
+        "command": "expand_swap_subword",
+        "caption": "Expand Swap Subword"
+    },
+    {
+        "command": "cancel_swap",
+        "caption": "Cancel Swap"
+    },
+    {
+        "caption": "Preferences: Expand and Edit Key Bindings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/Expand and Edit/Default ($platform).sublime-keymap",
+            "user_file": "${packages}/User/Default (${platform}).sublime-keymap",
+            "default": "[\n\t$0\n]\n",
+        }
+    }
+]
